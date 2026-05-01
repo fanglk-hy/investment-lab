@@ -1,0 +1,60 @@
+site_name: Investment Lab · 投资研究实验室
+site_description: 全球多资产长期价值投资研究
+site_url: https://fanglk-hy.github.io/investment-lab/
+repo_name: fanglk-hy/investment-lab
+repo_url: https://github.com/fanglk-hy/investment-lab
+edit_uri: ""
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 浅色模式
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - admonition
+  - footnotes
+
+plugins:
+  - search:
+      lang: zh
+
+nav:
+  - 首页: index.md
+  - 宏观快报:
+      - 2026年5月: research/macro-briefing-2026-05.md
+  - 个股研究:
+      - 贵州茅台 (600519): research/moutai-600519-deep-dive-2026-05.md
+      - 海光信息 (688041): research/hygon-688041-deep-dive-2026-05.md
+      - 闪迪 SanDisk (SNDK): research/sandisk-sndk-deep-dive-2026-05.md
+  - 行业分析: analysis.md
+  - 关于本站: about.md

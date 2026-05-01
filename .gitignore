@@ -1,0 +1,35 @@
+# Data files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+*.ipynb_checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# MkDocs
+site/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.secret
+.claude/
