@@ -1,6 +1,6 @@
-# Investment Lab — 投资研究实验室
+# 严选投研 · Curated Investment Research
 
-全球多资产长期价值投资研究项目。
+多资产长期价值投资独立研究。
 
 ## 投资哲学
 
