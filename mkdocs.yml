@@ -52,6 +52,10 @@ nav:
   - 首页: index.md
   - 宏观快报:
       - 2026年5月: research/macro-briefing-2026-05.md
+  - 投资组合:
+      - AI智能体20成长股: research/ai-agent-20-portfolio-2026-05.md
+      - 红利组合: research/dividend-portfolio-2026-05.md
+  - 行业分析: analysis.md
   - 个股研究:
       - 台积电 TSMC (TSM): research/tsmc-tsm-deep-dive-2026-05.md
       - 英伟达 NVIDIA (NVDA): research/nvidia-nvda-deep-dive-2026-05.md
@@ -66,8 +70,4 @@ nav:
       - 贵州茅台 (600519): research/moutai-600519-deep-dive-2026-05.md
       - 海光信息 (688041): research/hygon-688041-deep-dive-2026-05.md
       - 摩尔线程 (688795): research/moore-threads-688795-deep-dive-2026-05.md
-  - 投资组合:
-      - AI智能体20成长股: research/ai-agent-20-portfolio-2026-05.md
-      - 红利组合: research/dividend-portfolio-2026-05.md
-  - 行业分析: analysis.md
   - 关于本站: about.md
