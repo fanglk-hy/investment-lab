@@ -29,7 +29,7 @@ jobs:
         run: pip install mkdocs-material
 
       - name: 合并研究报告
-        run: cp -r research docs/research
+        run: rm -rf docs/research && cp -r research docs/research
 
       - name: 构建站点
         run: mkdocs build
