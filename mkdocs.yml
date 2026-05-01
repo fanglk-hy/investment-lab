@@ -53,14 +53,19 @@ nav:
   - 宏观快报:
       - 2026年5月: research/macro-briefing-2026-05.md
   - 个股研究:
-      - 贵州茅台 (600519): research/moutai-600519-deep-dive-2026-05.md
-      - 海光信息 (688041): research/hygon-688041-deep-dive-2026-05.md
-      - 闪迪 SanDisk (SNDK): research/sandisk-sndk-deep-dive-2026-05.md
-      - 摩尔线程 (688795): research/moore-threads-688795-deep-dive-2026-05.md
-      - 半导体赛道全景 (9家): research/semiconductor-sector-deep-dive-2026-05.md
       - 台积电 TSMC (TSM): research/tsmc-tsm-deep-dive-2026-05.md
       - 英伟达 NVIDIA (NVDA): research/nvidia-nvda-deep-dive-2026-05.md
       - 谷歌 Google (GOOGL): research/google-googl-deep-dive-2026-05.md
+      - 美光科技 Micron (MU): research/micron-mu-deep-dive-2026-05.md
+      - SK海力士 (000660): research/sk-hynix-000660-deep-dive-2026-05.md
+      - 三星电子 (005930): research/samsung-005930-deep-dive-2026-05.md
+      - 中际旭创 (300308): research/zhongji-innolight-300308-deep-dive-2026-05.md
+      - 中芯国际 (0981.HK): research/smic-0981hk-deep-dive-2026-05.md
+      - 华虹半导体 (1347.HK): research/huahong-1347hk-deep-dive-2026-05.md
+      - 闪迪 SanDisk (SNDK): research/sandisk-sndk-deep-dive-2026-05.md
+      - 贵州茅台 (600519): research/moutai-600519-deep-dive-2026-05.md
+      - 海光信息 (688041): research/hygon-688041-deep-dive-2026-05.md
+      - 摩尔线程 (688795): research/moore-threads-688795-deep-dive-2026-05.md
   - 行业分析: analysis.md
   - 红利组合: research/dividend-portfolio-2026-05.md
   - 关于本站: about.md
