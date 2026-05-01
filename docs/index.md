@@ -1,4 +1,4 @@
-# 严选投研 · Curated Investment Research
+# 投资严论 · The Rigorous Investor
 
 多资产长期价值投资独立研究。
 
