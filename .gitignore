@@ -32,4 +32,5 @@ Thumbs.db
 # Secrets
 .env
 *.secret
-.claude/
+.claude/*
+!.claude/commands/
