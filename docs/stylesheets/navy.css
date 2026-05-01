@@ -86,24 +86,66 @@
   background: var(--navy-900);
 }
 
-/* 标题层级 */
+/* ===== 标题层级 — 严格 Markdown：加粗加大 ===== */
 .md-typeset h1 {
   color: var(--ice);
-  font-weight: 700;
-  border-bottom: 1px solid rgba(74, 144, 217, 0.2);
-  padding-bottom: 0.3em;
+  font-weight: 900;
+  font-size: 2.0em;
+  letter-spacing: -0.02em;
+  border-bottom: 2px solid rgba(74, 144, 217, 0.25);
+  padding-bottom: 0.4em;
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
 }
 
 .md-typeset h2 {
   color: var(--ice);
-  font-weight: 600;
-  border-left: 3px solid var(--steel);
-  padding-left: 0.6em;
+  font-weight: 800;
+  font-size: 1.55em;
+  border-left: 4px solid var(--steel);
+  padding-left: 0.7em;
+  margin-top: 1.4em;
+  margin-bottom: 0.5em;
 }
 
 .md-typeset h3 {
   color: var(--steel);
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 1.22em;
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+}
+
+.md-typeset h4 {
+  color: var(--ice-dim);
+  font-weight: 700;
+  font-size: 1.05em;
+  margin-top: 1.0em;
+}
+
+/* 粗体文本 — 更醒目 */
+.md-typeset strong {
+  color: var(--ice);
+  font-weight: 800;
+}
+
+/* 段落间距 */
+.md-typeset p {
+  margin-bottom: 0.9em;
+  line-height: 1.75;
+}
+
+/* 列表项 */
+.md-typeset li {
+  margin-bottom: 0.3em;
+  line-height: 1.7;
+}
+
+/* 水平分割线 */
+.md-typeset hr {
+  border: none;
+  border-top: 1px solid rgba(74, 144, 217, 0.15);
+  margin: 2em 0;
 }
 
 /* ===== 表格 ===== */
