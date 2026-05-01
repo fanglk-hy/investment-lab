@@ -28,6 +28,9 @@ jobs:
       - name: 安装依赖
         run: pip install mkdocs-material
 
+      - name: 合并研究报告
+        run: cp -r research docs/research
+
       - name: 构建站点
         run: mkdocs build
 
