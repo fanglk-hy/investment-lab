@@ -9,18 +9,18 @@ theme:
   name: material
   language: zh
   palette:
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: 浅色模式
     - scheme: default
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/brightness-7
-        name: 深色模式
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
         icon: material/brightness-4
-        name: 浅色模式
+        name: 深色模式
   features:
     - navigation.instant
     - navigation.tracking
@@ -29,6 +29,9 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+
+extra_css:
+  - stylesheets/navy.css
 
 markdown_extensions:
   - pymdownx.highlight:

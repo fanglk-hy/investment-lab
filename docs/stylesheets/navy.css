@@ -1,0 +1,197 @@
+/*
+ * Investment Lab — 海军蓝主题
+ * 设计语言：Bloomberg Terminal × McKinsey Report
+ */
+
+:root {
+  /* 配色体系 */
+  --navy-900: #0a1628;
+  --navy-800: #0d1f35;
+  --navy-700: #112840;
+  --navy-600: #163553;
+  --steel:     #4a90d9;
+  --steel-dim: #357abd;
+  --gold:      #c9a95c;
+  --ice:       #e8edf2;
+  --ice-dim:   #b0bec5;
+  --positive:  #2ecc71;
+  --negative:  #e74c3c;
+}
+
+/* ===== 全局底色 ===== */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color:             var(--navy-900);
+  --md-default-bg-color--light:      var(--navy-800);
+  --md-default-bg-color--lighter:    var(--navy-700);
+  --md-default-bg-color--lightest:   var(--navy-600);
+  --md-default-fg-color:             var(--ice);
+  --md-default-fg-color--light:      var(--ice-dim);
+  --md-default-fg-color--lighter:    #8a9bb5;
+  --md-default-fg-color--lightest:   #5c6e84;
+
+  /* 主色调 */
+  --md-primary-fg-color:             var(--steel);
+  --md-primary-fg-color--light:      #64b5f6;
+  --md-primary-fg-color--dark:       var(--steel-dim);
+
+  /* 强调色（链接、按钮等） */
+  --md-accent-fg-color:              var(--steel);
+  --md-accent-fg-color--transparent: rgba(74, 144, 217, 0.12);
+
+  /* 代码块 */
+  --md-code-bg-color:                var(--navy-900);
+  --md-code-fg-color:                var(--ice);
+  --md-code-hl-color:                rgba(74, 144, 217, 0.15);
+
+  /* 表格 */
+  --md-typeset-table-color:          var(--navy-600);
+  --md-typeset-table-color--light:   var(--navy-500);
+
+  /* 引用块 */
+  --md-admonition-bg-color:          var(--navy-800);
+  --md-admonition-fg-color:          var(--ice);
+}
+
+/* ===== 顶部导航栏 ===== */
+.md-header {
+  background: linear-gradient(135deg, var(--navy-900) 0%, var(--navy-800) 100%);
+  border-bottom: 1px solid rgba(74, 144, 217, 0.15);
+}
+
+/* ===== 侧边栏 ===== */
+.md-sidebar {
+  background: var(--navy-800);
+}
+
+.md-nav__link {
+  color: var(--ice-dim);
+  transition: color 0.15s;
+}
+.md-nav__link:hover {
+  color: var(--steel);
+}
+.md-nav__link--active {
+  color: var(--steel) !important;
+  font-weight: 600;
+}
+
+/* 侧边栏当前项背景 */
+.md-nav__item--active > .md-nav__link {
+  background: rgba(74, 144, 217, 0.08);
+  border-right: 2px solid var(--steel);
+}
+
+/* ===== 主内容区 ===== */
+.md-main__inner {
+  background: var(--navy-900);
+}
+
+/* 标题层级 */
+.md-typeset h1 {
+  color: var(--ice);
+  font-weight: 700;
+  border-bottom: 1px solid rgba(74, 144, 217, 0.2);
+  padding-bottom: 0.3em;
+}
+
+.md-typeset h2 {
+  color: var(--ice);
+  font-weight: 600;
+  border-left: 3px solid var(--steel);
+  padding-left: 0.6em;
+}
+
+.md-typeset h3 {
+  color: var(--steel);
+  font-weight: 500;
+}
+
+/* ===== 表格 ===== */
+.md-typeset table:not([class]) {
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.md-typeset table:not([class]) th {
+  background: var(--navy-700);
+  border-bottom: 2px solid var(--steel);
+  color: var(--steel);
+  font-weight: 600;
+}
+
+.md-typeset table:not([class]) td {
+  border-bottom: 1px solid var(--navy-600);
+}
+
+.md-typeset table:not([class]) tr:hover td {
+  background: rgba(74, 144, 217, 0.06);
+}
+
+/* ===== 引用块 ===== */
+.md-typeset blockquote {
+  border-left: 3px solid var(--steel);
+  background: rgba(74, 144, 217, 0.06);
+  border-radius: 0 6px 6px 0;
+}
+
+/* ===== 代码块 ===== */
+.md-typeset code {
+  background: var(--navy-800);
+  border-radius: 4px;
+  padding: 0.15em 0.45em;
+  font-size: 0.9em;
+}
+
+.md-typeset pre > code {
+  border-radius: 8px;
+  border: 1px solid var(--navy-600);
+}
+
+/* ===== 链接 ===== */
+.md-typeset a {
+  color: var(--steel);
+  border-bottom: 1px dotted rgba(74, 144, 217, 0.3);
+  transition: border-color 0.15s;
+}
+.md-typeset a:hover {
+  color: #64b5f6;
+  border-bottom-color: #64b5f6;
+}
+
+/* ===== 搜索框 ===== */
+.md-search__input {
+  background: var(--navy-700) !important;
+  border-radius: 6px !important;
+  color: var(--ice) !important;
+}
+.md-search__input::placeholder {
+  color: var(--ice-dim) !important;
+}
+
+/* ===== 底部 ===== */
+.md-footer {
+  background: var(--navy-900);
+  border-top: 1px solid rgba(74, 144, 217, 0.1);
+}
+
+/* ===== 滚动条 ===== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--navy-800);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--navy-600);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--steel-dim);
+}
+
+/* ===== 选中文字 ===== */
+::selection {
+  background: rgba(74, 144, 217, 0.25);
+  color: var(--ice);
+}
